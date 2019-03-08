@@ -1,2 +1,0 @@
-# golf
-code golf
