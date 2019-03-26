@@ -1,0 +1,1 @@
+for((b=1;i++<31;f=a+b,a=b,b=f)){ echo $[a];}
