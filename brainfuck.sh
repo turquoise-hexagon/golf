@@ -1,2 +1,3 @@
-t(){ [ $v = $1 ];};e(){ eval "((d[t]))$1for((;c;i$2)){ v=\${s:i$31:1};t [&&((c$2));t ]&&((c$4));}";};s=$*;for((;i<${#s};i++)){ c=1;o=${s:i:1};case $o in
-\>)((t++));;\<)((t--));;+|-)((d[t]$o$o));;,)printf -vd[t] %d`read -n1`;;.)printf \\x`printf %x ${d[t]}`;;[)e '||' ++ + --;;])e '&&' -- - ++;esac;}
+s=$*;e(){ [ $v = $1 ];};for((;i<${#s};i++)){ c=1;n=0;o=${s:i:1};case $o in
+\>)((t++));;\<)((t--));;+|-)((d[t]$o$o));;,)printf -vd[t] %d`read -n1`;;.)printf \\x`printf %x ${d[t]}`;;[)n=1;;])n=-1;esac
+((n*((n<1)-!d[t])))&&for((;c;i+=n)){ v=${s:i+n:1};e ]&&((c-=n));e [&&((c+=n));};}
