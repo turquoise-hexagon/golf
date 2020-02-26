@@ -1,12 +1,17 @@
-code golf snippets for backup and sharing purpose
+golf
+====
+    code golf snippets for backup and sharing purpose
 
-usage :
-* cd src
-* ./$script
+usage
+-----
+    * cd src
+    * ./$script
 
-depends on :
-* bash
+depends on
+----------
+    * bash
 
-credits :
-* @laserbat   for some ideas / help
-* @dylanaraps for some ideas / help
+credits
+-------
+    * @laserbat   for some ideas / help
+    * @dylanaraps for some ideas / help
