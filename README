@@ -1,5 +1,12 @@
 code golf snippets for backup and sharing purpose
 
+usage :
+* cd src
+* ./$script
+
+depends on :
+* bash
+
 credits :
-@laserbat   for some ideas / help
-@dylanaraps for some ideas / help
+* @laserbat   for some ideas / help
+* @dylanaraps for some ideas / help
